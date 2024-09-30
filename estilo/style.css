@@ -197,18 +197,6 @@ main{
     width: 48%;
 }
 
-/*Rodapé*/
-<<<<<<< HEAD
-footer{
-    background-color: rgba(124, 124, 124, 0.7);
-    padding: 20px;
-    text-align: center;
-    color: var(--text-color);
-}
-
-
-
-=======
 footer {
     text-align: center;
     padding: 20px;
@@ -216,4 +204,4 @@ footer {
     color: #fff;
     font-size: 14px;
 }
->>>>>>> 1eb686f48963e69fba6352539b9b2d906758509e
+
