@@ -1,0 +1,132 @@
+@charset "UTF-8";
+
+:root{
+    --cor0: #EBEBEB;
+    --cor1: #21272B;
+    --cor2: #1A3243;
+    --cor3: #1BB4E8;
+    --cor4: #C6B07F;
+
+    --max-wid: 980px
+}
+body{
+    background-color: var(--cor0);
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    width: 1100px;
+    margin: auto;
+}
+
+/*Cabeçalho*/
+header{
+    background-color: var(--cor1);
+    color: white;
+    padding: 20px 20px 5px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1000px;
+    margin: auto;
+}
+header h2{
+    margin: 0px;
+    
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    width: 300px;
+}
+#img_logo{
+    margin-right: 15px;
+    padding-bottom: 15px;
+}
+#texto_logo{
+    display: flex;
+    flex-direction: column;
+}
+#t1{
+    color: var(--cor3);
+}
+#t2{
+    padding-bottom: 15px;
+}
+
+/*Menu*/
+.menu{
+    font-style: normal;
+    width: 610px;
+    list-style: none; 
+    padding: 10px;
+    gap: 20px; 
+    display: flex;
+    justify-content: flex-end;
+    font-size: 20px;
+    margin: 30px 0px 0px 0px;
+    padding: 0px;
+    font-size: 14px;
+}
+.menu li::after {
+    content: "|"; 
+    margin-left: 20px; 
+}
+.menu li:last-child::after {
+    content: ""; 
+}
+.menu > li > a{
+    color: white;
+    font-weight: 400;
+    text-decoration: none;
+}
+.menu > li > a:hover{
+    color: var(--cor3);
+    font-weight: 400;
+}
+
+/*Imagem principal*/
+.artigo_principal{
+    position: relative; 
+    width: 100%; 
+    max-width: 1040px;
+    margin: 0 auto;
+}
+#img_fundo{
+    display: block;
+    width: 100%;
+    height: 0 auto;
+    margin: 0 auto;
+}
+#bloco_1{
+    position: absolute; 
+    top: 250px; 
+    left: 525px; 
+    color: white;
+    background-color: #1a3243be; 
+    padding: 20px; 
+    width: 360px;
+}
+#bloco_1 h2 {
+    margin-top:10px;
+}
+
+#ligar{
+    display: flex;
+    align-items: center;
+}
+#ligar img {
+    margin-right: 10px;
+}
+#ligar p {
+    margin: 0;
+    font-size: 18px;
+}
+
+main{
+    background-color: white;
+    width: 1040px;
+    margin: auto;
+}
+
+/*Artigo Destinos*/
