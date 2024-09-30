@@ -11,11 +11,9 @@
 }
 body{
     background-color: var(--cor0);
-    margin: 0px;
+    margin: auto;
     font-family: Arial, Helvetica, sans-serif;
     font-style: italic;
-    width: 1500px;
-    margin: auto;
 }
 
 /*Cabeçalho*/
@@ -101,7 +99,7 @@ header h2{
 #bloco_1{
     position: absolute; 
     top: 250px; 
-    left: 525px; 
+    left: 550px; 
     color: white;
     background-color: #1a3243be; 
     padding: 20px; 
@@ -130,9 +128,17 @@ main{
 }
 
 /*Artigo Destinos*/
+.info-sections {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 05px;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #f9f9f9;
+}
 .destiny{
-    width: 420px;
-    margin: 10px 10px 10px 30px;
+    width: 480px;
+    margin: 10px 0px 10px 10px;
     font-size: small;
 }
 .titulo_icone_destinos{
@@ -140,6 +146,7 @@ main{
     align-items: center;
     color: #FFFFFF;
     background-color: var(--cor3); 
+    padding: 2px;
 }
 .titulo_icone_destinos img{
     width: 41px;
@@ -160,7 +167,7 @@ main{
 .frota{
     width: 420px;
     font-size: small;
-    margin: 10px 10px 10px 30px;
+    margin: 10px 10px 10px 0px;
 }
 .titulo_icone_frota{
     display: flex;
@@ -191,6 +198,22 @@ main{
 }
 
 /*Rodapé*/
+<<<<<<< HEAD
 footer{
-    background-color: rgba(124, 124, 124, 0.568);
+    background-color: rgba(124, 124, 124, 0.7);
+    padding: 20px;
+    text-align: center;
+    color: var(--text-color);
 }
+
+
+
+=======
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(124, 124, 124, 0.7);
+    color: #fff;
+    font-size: 14px;
+}
+>>>>>>> 1eb686f48963e69fba6352539b9b2d906758509e
